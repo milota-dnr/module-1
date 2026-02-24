@@ -1,0 +1,215 @@
+body{
+    background-color: #212121;
+}
+
+a, p, li, h1, div{
+    color: #E8E8E8;
+    text-decoration: none;
+}
+
+p{font-size: 16px;
+font-weight: medium;}
+
+.header, .footer, .main-screen, .excursions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container, .footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+header{
+    padding: 10px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+ul{
+    display: flex;
+    justify-content: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+
+.excursions-list{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    gap: 35px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+tr{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color: white;
+}
+
+td{
+    color: white;
+}
+.section-container{
+display: flex;
+justify-content: space-between;    
+flex-direction: column;
+}
+
+.review{
+    max-width: 250px;
+}
+
+.rewies-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.button-light{
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.title-container{
+    max-width: 1260px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-card{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+.main-screen{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.main-screen__container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.position{
+   position: absolute;
+top: 10%;
+left: 10%;
+max-width: 70%;main-screen__container
+}
+
+.image{
+    min-height: 500px; /* Высота блока */
+    /*/background-image: url('/image/i.webp'); /* Адрес картинки */
+    /*background-size: cover; /* Заполнение */
+    background-image: url('/media/img/main-screen.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100vw;
+    color: black;
+}
+
+.excursions{
+    max-width: 900px;
+}
+
+.excursion{
+    width: 270px;
+}
+
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%
+}
+.title-container{
+    display: flex;
+    flex-direction: column;
+}
+.site-description{
+    font-size: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer{
+    padding: 40px;
+}
+/*
+.center{
+    display: flex;
+    justify-content: center;
+}*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-description{
+    font-size: 18px;
+}
+.button{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.button-black{
+    margin: auto;
+    color: black;
+    background-color: white;
+}
+
+#ex{
+    width: 5px;
+}
+
+#search{
+    max-width: 700px;
+    min-width: 320px;
+}

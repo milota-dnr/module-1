@@ -1,0 +1,1 @@
+ErrorDocument 404 "<h1>Oops, that page doesn't exist!</h1><p>blah blah blah</p>"
