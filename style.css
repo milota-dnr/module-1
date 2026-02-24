@@ -122,24 +122,41 @@ flex-direction: column;
     margin: 0 auto;
 }
 .position{
+    margin-top: 30px;
+}
+
+.h1-title{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#desc-t{
+    color: bisque;
+    font-size: 30px;
+}
+#desc{
+    color: bisque;
+    font-size: 20px;
+}
+.position{
    position: absolute;
 top: 10%;
 left: 10%;
 max-width: 70%;main-screen__container
 }
 
-.image{
-    min-height: 500px; /* Высота блока */
-    /*/background-image: url('/image/i.webp'); /* Адрес картинки */
-    /*background-size: cover; /* Заполнение */
-    background-image: url('/media/img/main-screen.webp');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    width: 100vw;
-    color: black;
-}
 
+.image {
+  min-height: 500px;
+  height: 100vh; /* Гарантирует высоту, если родитель не задан */
+  background-color: #f0f0f0; /* Резервный цвет */
+  background-image: url('/media/img/main-screen.jpg'); /* JPG для старых браузеров */
+  background-image: url('/media/img/main-screen.webp'), url('/media/img/main-screen.jpg'); /* WebP с fallback */
+  background-repeat: no-repeat;
+  background-size: cover; /* Лучше, чем 100% — заполняет весь блок */
+  background-position: center;
+  width: 100vw;
+  color: black;
+}
 .excursions{
     max-width: 900px;
 }
